@@ -1,0 +1,6 @@
+.lead__image {
+  width: 100%;
+  background-image: url("../../../images/lead__image.jpg");
+  background-size: cover;
+  padding-bottom: 62.5%;
+}

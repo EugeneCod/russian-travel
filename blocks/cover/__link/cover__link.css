@@ -1,0 +1,8 @@
+.cover__link {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-decoration: none;
+  color: #fff;
+}
