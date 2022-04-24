@@ -2,3 +2,9 @@
   padding: 92px 0;
   color: #fff;
 }
+
+@media (max-width: 560px) {
+  .cover {
+    padding: 66px 0 64px;
+  }
+}

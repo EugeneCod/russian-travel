@@ -6,3 +6,18 @@
   padding-bottom: 64px;
   margin: 0;
 }
+
+@media (max-width: 767px) {
+  .lead__subtitle {
+    font-size: 20px;
+    line-height: 1.1;
+  }
+}
+
+
+@media (max-width: 560px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}

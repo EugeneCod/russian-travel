@@ -2,4 +2,9 @@
   width: 100%;
   grid-area: 1/1/2/2;
   opacity: .7;
+  transition: opacity 0.5s;
+}
+
+.cover__image:hover {
+  opacity: .2;
 }

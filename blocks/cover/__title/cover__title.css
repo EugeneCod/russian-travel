@@ -6,3 +6,11 @@
   margin: 0 0 32px;
   text-align: center;
 }
+
+@media (max-width: 560px) {
+  .cover__title  {
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 0 0 16px;
+  }
+}

@@ -3,3 +3,9 @@
   padding: 0 100px;
   box-sizing: border-box;
 }
+
+@media (max-width: 1031px) {
+  .container {
+    padding: 0;
+  }
+}

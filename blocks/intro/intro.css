@@ -3,3 +3,9 @@
   max-width: 690px;
   color: #fff;
 }
+
+@media (max-width: 560px) {
+  .intro  {
+    padding-top: 64px;
+  }
+}

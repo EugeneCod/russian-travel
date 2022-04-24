@@ -7,3 +7,18 @@
   margin: 0;
   padding-bottom: 32px;
 }
+
+@media (max-width: 767px) {
+  .lead__title {
+    font-size: 60px;
+  line-height: 1.1;
+  }
+}
+
+
+@media (max-width: 560px) {
+  .lead__title  {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
