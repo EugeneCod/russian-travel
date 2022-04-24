@@ -1,3 +1,5 @@
-.place__text-container {
-  
+@media (max-width: 560px) {
+  .place__text-container {
+    padding: 0 16px 0;
+  }
 }

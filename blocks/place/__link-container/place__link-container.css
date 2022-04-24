@@ -3,3 +3,9 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media (max-width: 560px) {
+  .place__link-container {
+    padding: 0 16px 0;
+  }
+}

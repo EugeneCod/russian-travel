@@ -2,19 +2,18 @@
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  padding-top: 92px;
-  padding-bottom: 12px;
+  padding: 92px 48px 0;
 }
 
 @media (max-width: 860px) {
   .photo-grid {
-    padding-bottom: 15px;
-    padding-top: 88px;
+    padding: 88px 24px 0;
   }
 }
 
 @media (max-width: 560px) {
   .photo-grid  {
-    padding-top: 64px;
+    padding: 64px 16px 0;
+    row-gap: 12px;
   }
 }

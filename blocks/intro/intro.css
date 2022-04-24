@@ -1,11 +1,23 @@
 .intro {
-  padding-top: 92px;
+  padding: 92px 148px 0;
   max-width: 690px;
   color: #fff;
 }
 
+@media (max-width: 1100px) {
+  .intro {
+    padding: 92px 48px 0;
+  }
+}
+
+@media (max-width: 860px) {
+  .intro {
+    padding: 88px 24px 0;
+  }
+}
+
 @media (max-width: 560px) {
   .intro  {
-    padding-top: 64px;
+    padding: 64px 16px 0;
   }
 }

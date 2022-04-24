@@ -3,7 +3,6 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 48px 40px;
   color: #fff;
-  padding-top: 80px;
 }
 
 @media (max-width: 1031px) {
@@ -14,7 +13,6 @@
 
 @media (max-width: 860px) {
   .place {
-    padding-top: 73px;
     column-gap: 28px;
   }
 }
@@ -22,7 +20,6 @@
 @media (max-width: 560px) {
   .place  {
     grid-template-columns: 1fr;
-    padding-top: 50px;
     row-gap: 32px;
   }
   

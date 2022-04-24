@@ -7,10 +7,17 @@
   margin: 0;
 }
 
+@media (max-width: 1031px) {
+  .lead__subtitle {
+    padding: 0 24px 56px;
+  }
+}
+
 @media (max-width: 767px) {
   .lead__subtitle {
     font-size: 20px;
     line-height: 1.1;
+    padding: 0 24px 56px;
   }
 }
 
@@ -19,5 +26,6 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;
+    padding: 0 16px 40px;
   }
 }

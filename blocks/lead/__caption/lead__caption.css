@@ -6,3 +6,15 @@
   text-transform: uppercase;
   padding-top: 8px;
 }
+
+@media (max-width: 860px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 560px) {
+  .lead__caption  {
+    padding-left: 16px;
+  }
+}
