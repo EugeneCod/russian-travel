@@ -14,3 +14,10 @@
 .header__lang-link:last-child {
   margin: 0;
 }
+
+@media (max-width: 560px) {
+  .header__lang-link  {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}
