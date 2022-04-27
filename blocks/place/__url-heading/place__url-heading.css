@@ -1,7 +1,9 @@
-.place__link-title {
+.place__url-heading {
   letter-spacing: 2px;
   font-size: 12px;
   line-height: 1;
   font-weight: normal;
   margin: 0 0 12px;
+  text-transform: uppercase;
+  color: #aaa;
 }

@@ -1,11 +1,11 @@
-.place__link-container {
+.place__website {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
 @media (max-width: 560px) {
-  .place__link-container {
+  .place__website {
     padding: 0 16px 0;
   }
 }

@@ -1,0 +1,11 @@
+@media (max-width: 860px) {
+  .place__title_limited {
+    max-width: min-content;
+  }
+}
+
+@media (max-width: 560px) {
+  .place__title_limited {
+    max-width: none;
+  }
+}

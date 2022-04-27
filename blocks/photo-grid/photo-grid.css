@@ -3,11 +3,22 @@
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   padding: 92px 48px 0;
+  margin: 0;
+  list-style: none;
+  /*Без line-height: 0; высота li больше высоты дочернего элемента на 3 пикселя */
+  line-height: 0;
+}
+
+@media (max-width: 1031px) {
+  .photo-grid {
+    gap: 14px;
+  }
 }
 
 @media (max-width: 860px) {
   .photo-grid {
     padding: 88px 24px 0;
+    gap: 16px;
   }
 }
 

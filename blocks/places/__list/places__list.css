@@ -5,3 +5,15 @@
   display: grid;
   row-gap: 80px;
 }
+
+@media (max-width: 860px) {
+  .places__list {
+    row-gap: 70px;
+  }
+}
+
+@media (max-width: 560px) {
+  .places__list {
+    row-gap: 48px;
+  }
+}

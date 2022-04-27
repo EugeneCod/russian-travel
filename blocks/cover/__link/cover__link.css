@@ -4,5 +4,46 @@
   align-items: center;
   justify-items: center;
   text-decoration: none;
+  align-content: center;
   color: #fff;
+  max-width: 1184px;
+  min-height: 740px;
+  background-image: url(../../../images/cover__overlay.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.cover__link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  transition: opacity 0.5s ease-in-out;
+  opacity: .3;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
+}
+
+@media (max-width: 1031px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 860px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 560px) {
+  .cover__link {
+    min-height: 200px;
+  }
 }
