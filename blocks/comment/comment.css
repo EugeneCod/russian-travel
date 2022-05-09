@@ -1,0 +1,12 @@
+.comment {
+  color: #fff;
+}
+
+@media (max-width: 860px) {
+  .comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 382px;
+  }
+}

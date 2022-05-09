@@ -1,9 +1,9 @@
 .intro__title {
   font-weight: 900;
   font-size: 54px;
-  line-height: 1.07;
+  line-height: 1.089;
   margin: 0;
-  padding-bottom: 40px;
+  padding-bottom: 48px;
 }
 
 @media (max-width: 560px) {

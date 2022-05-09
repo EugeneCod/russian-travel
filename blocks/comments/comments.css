@@ -1,0 +1,27 @@
+.comments {
+  padding: 102px 128px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+@media (max-width: 1300px) {
+  .comments {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media (max-width: 860px) {
+  .comments {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 560px) {
+  .comments  {
+    padding: 64px 16px 0;
+  }
+}

@@ -3,9 +3,9 @@
   font-size: 96px;
   line-height: 1.04;
   text-align: center;
-  max-width: 720px;
+  max-width: 782px;
   margin: 0;
-  padding-bottom: 32px;
+  padding-bottom: 48px;
 }
 
 @media (max-width: 767px) {

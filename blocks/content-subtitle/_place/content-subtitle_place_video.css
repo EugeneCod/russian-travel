@@ -1,0 +1,11 @@
+@media (max-width: 860px) {
+  .content-subtitle_place_video {
+    padding-bottom: 56px;
+  }
+}
+
+@media (max-width: 560px) {
+  .content-subtitle_place_video {
+    padding-bottom: 24px;
+  }
+}

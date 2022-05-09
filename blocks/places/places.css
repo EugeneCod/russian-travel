@@ -1,5 +1,12 @@
 .places {
-  padding: 92px 148px 0;
+  padding: 92px 228px 0;
+}
+
+@media (max-width: 1300px) {
+  .places {
+    padding-left: 148px;
+    padding-right: 148px;
+  }
 }
 
 @media (max-width: 1100px) {

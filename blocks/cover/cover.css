@@ -1,6 +1,16 @@
 .cover {
-  padding: 92px 48px;
+  padding: 102px 128px 160px;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1300px) {
+  .cover {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -12,14 +22,13 @@
 
 @media (max-width: 860px) {
   .cover {
-    padding-top: 90px;
     padding-bottom: 88px;
   }
 }
 
 @media (max-width: 560px) {
   .cover {
-    padding-top: 66px;
+    padding-top: 48px;
     padding-bottom: 64px;
   }
 }

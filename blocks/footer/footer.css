@@ -3,7 +3,15 @@
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  padding: 0 48px 24px;
+  padding: 0 128px 48px;
+}
+
+@media (max-width: 1300px) {
+  .footer {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+  }
 }
 
 @media (max-width: 860px) {

@@ -1,0 +1,13 @@
+.video__duration {
+  font-size: 12px;
+  line-height: 1.09;
+  font-weight: 500;
+  margin: 0 0 12px;
+  letter-spacing: 0.3em;
+}
+
+@media (max-width: 860px) {
+  .video__duration {
+    margin-bottom: 8px;
+  }
+}

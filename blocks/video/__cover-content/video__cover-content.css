@@ -1,0 +1,21 @@
+.video__cover-content {
+  grid-row: 1/1;
+  grid-column: 1/1;
+  z-index: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+@media (max-width: 860px) {
+  .video__cover-content {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 374px) {
+  .video__cover-content {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,10 @@
+.video__cover {
+  display: grid;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.video__cover._active {
+  display: none;
+}
+

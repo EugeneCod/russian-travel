@@ -1,0 +1,12 @@
+
+.video__iframe-wrapper {
+  display: none;
+}
+
+.video__iframe-wrapper._active {
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}

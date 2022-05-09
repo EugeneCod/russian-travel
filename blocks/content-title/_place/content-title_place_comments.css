@@ -1,0 +1,12 @@
+@media (max-width: 860px) {
+  .content-title_place_comments {
+    padding-bottom: 24px;
+    max-width: 660px;
+  }
+}
+
+@media (max-width: 560px) {
+  .content-subtitle_place_comments {
+    padding-bottom: 16px;
+  }
+}

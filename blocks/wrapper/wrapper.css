@@ -1,5 +1,6 @@
 .wrapper {
-  max-width: 1280px;
+  /* max-width: 1280px; */
+  max-width: 1440px;
   min-width: 320px;
   background-color: #2A2C2F;
   width: 100%;

@@ -1,0 +1,22 @@
+.content-title {
+  color: #fff;
+  font-size: 72px;
+  line-height: 1.089;
+  font-weight: 900;
+  max-width: 800px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 48px;
+}
+
+@media (max-width: 860px) {
+  .content-title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 560px) {
+  .content-title {
+    font-size: 32px;
+  }
+}

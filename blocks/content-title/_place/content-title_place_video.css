@@ -1,0 +1,12 @@
+@media (max-width: 860px) {
+  .content-title_place_video {
+    padding-bottom: 31px;
+    max-width: 443px;
+  }
+}
+
+@media (max-width: 560px) {
+  .content-title_place_video {
+    padding-bottom: 16px;
+  }
+}
